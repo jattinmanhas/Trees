@@ -1,4 +1,5 @@
 import Traversals.*;
+import TreeQuestions.HeightTree;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,8 +19,12 @@ public class Main {
 //        lo.treeConstruct();
 //        lo.LevelOrderDisplay();
 
-        AllTraversals at = new AllTraversals();
-        at.treeConstruct();
-        at.displayAll();
+//        AllTraversals at = new AllTraversals();
+//        at.treeConstruct();
+//        at.displayAll();
+
+        HeightTree ht = new HeightTree();
+        ht.treeConstruct();
+        ht.maxDepthMain();
     }
 }
