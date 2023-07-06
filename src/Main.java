@@ -23,8 +23,20 @@ public class Main {
 //        at.treeConstruct();
 //        at.displayAll();
 
-        HeightTree ht = new HeightTree();
-        ht.treeConstruct();
-        ht.maxDepthMain();
+//        HeightTree ht = new HeightTree();
+//        ht.treeConstruct();
+//        ht.maxDepthMain();
+
+//        ZigZag zz = new ZigZag();
+//        zz.treeConstruct();
+//        zz.ZigzagMain();
+
+//        Boundary b = new Boundary();
+//        b.treeConstruct();
+//        b.printBoundary();
+
+        VerticalOrder vo = new VerticalOrder();
+        vo.treeConstruct();
+        vo.verticalOrderMain();
     }
 }
