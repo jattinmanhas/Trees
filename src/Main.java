@@ -1,4 +1,5 @@
 import Traversals.*;
+import TreeQuestions.DistanceK;
 import TreeQuestions.HeightTree;
 
 public class Main {
@@ -35,8 +36,12 @@ public class Main {
 //        b.treeConstruct();
 //        b.printBoundary();
 
-        VerticalOrder vo = new VerticalOrder();
-        vo.treeConstruct();
-        vo.verticalOrderMain();
+//        VerticalOrder vo = new VerticalOrder();
+//        vo.treeConstruct();
+//        vo.verticalOrderMain();
+
+        DistanceK kk = new DistanceK();
+        kk.treeConstruct();
+        kk.distanceKMain();
     }
 }
