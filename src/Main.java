@@ -1,4 +1,6 @@
 import Traversals.*;
+import TreeQuestions.CheckDeadEnd;
+import TreeQuestions.DiameterTree;
 import TreeQuestions.DistanceK;
 import TreeQuestions.HeightTree;
 
@@ -40,8 +42,16 @@ public class Main {
 //        vo.treeConstruct();
 //        vo.verticalOrderMain();
 
-        DistanceK kk = new DistanceK();
-        kk.treeConstruct();
-        kk.distanceKMain();
+//        DistanceK kk = new DistanceK();
+//        kk.treeConstruct();
+//        kk.distanceKMain();
+
+//        DiameterTree dt = new DiameterTree();
+//        dt.treeConstruct();
+//        dt.diameterTreeMain();
+
+        CheckDeadEnd cd = new CheckDeadEnd();
+        cd.treeConstruct();
+        cd.isDeadEndMain();
     }
 }
