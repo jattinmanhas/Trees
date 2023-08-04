@@ -1,8 +1,5 @@
 import Traversals.*;
-import TreeQuestions.CheckDeadEnd;
-import TreeQuestions.DiameterTree;
-import TreeQuestions.DistanceK;
-import TreeQuestions.HeightTree;
+import TreeQuestions.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,8 +47,16 @@ public class Main {
 //        dt.treeConstruct();
 //        dt.diameterTreeMain();
 
-        CheckDeadEnd cd = new CheckDeadEnd();
-        cd.treeConstruct();
-        cd.isDeadEndMain();
+//        CheckDeadEnd cd = new CheckDeadEnd();
+//        cd.treeConstruct();
+//        cd.isDeadEndMain();
+
+//        RecoverBST rbst = new RecoverBST();
+//        rbst.constructTree();
+//        rbst.recoverTreeMain();
+
+        Morris mo = new Morris();
+        mo.constructTree();
+        mo.MorrisTraversalMain();
     }
 }
