@@ -55,8 +55,12 @@ public class Main {
 //        rbst.constructTree();
 //        rbst.recoverTreeMain();
 
-        Morris mo = new Morris();
-        mo.constructTree();
-        mo.MorrisTraversalMain();
+//        Morris mo = new Morris();
+//        mo.constructTree();
+//        mo.MorrisTraversalMain();
+
+        CameraTree ct = new CameraTree();
+        ct.construct();
+        ct.installCamera();
     }
 }
